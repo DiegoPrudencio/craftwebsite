@@ -1,0 +1,78 @@
+.bannerDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bannerImageDiv {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    width: 55%;
+    justify-content: end;
+}
+
+.bannerImage {
+    width: 150px;
+    height: auto;
+    background-color: lightpink;
+    padding: 12.5px 12.5px 30px 12.5px;
+}
+
+.image1 {
+    transform: rotate(-10deg);
+}
+
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover {
+    background-color: purple;
+    transition: 3s;
+    z-index: 50;
+    transform: scale(1.5);
+}
+
+.image2 {
+    transform: rotate(10deg);
+    margin-left: -30px;
+}
+
+.image3 {
+    transform: rotate(-5deg);
+    margin-left: -60px;
+}
+
+.image4 {
+    transform: rotate(5deg);
+    margin-top: -15px;
+}
+
+.image5 {
+    transform: rotate(-10deg);
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+.image6 {
+    transform: rotate(10deg);
+    margin-left: -60px;
+}
+
+.bannerTextDiv {
+    width: 45%;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+.bannerText {
+    font-weight: bold;
+    font-size: 25px;    
+    text-align: center;
+}
+
+.craftName {
+    font-size: 50px!important;
+    text-align: center;
+    background-image: linear-gradient(to bottom, purple, lightpink);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
